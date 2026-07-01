@@ -78,4 +78,4 @@ Autora
 **Joana Pacheco**
 
 - GitHub: https://github.com/Joana-Pacheco
-- LinkedIn: www.linkedin.com/in/joana-regina-pacheco
+- LinkedIn: https://www.linkedin.com/in/joanareginapacheco/ 
