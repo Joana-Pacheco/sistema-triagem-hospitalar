@@ -69,12 +69,6 @@ Clone este repositório:
 
 ```bash
 git clone https://github.com/Joana-Pacheco/sistema-triagem-hospitalar.git
-## ▶️ Como executar
-
-Clone este repositório:
-
-```bash
-git clone https://github.com/Joana-Pacheco/sistema-triagem-hospitalar.git
 ```
 
 Entre na pasta do projeto:
@@ -86,10 +80,8 @@ cd sistema-triagem-hospitalar
 Execute o programa:
 
 ```bash
-python3 main.py
+python3 sistema_triagem_da_jo.py
 ```
-
----
 
 ## 🎯 Aprendizado
 
