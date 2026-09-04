@@ -1,81 +1,106 @@
-Sistema de Triagem Hospitalar
+# 🏥 Sistema de Triagem Hospitalar
 
-Sistema de triagem hospitalar desenvolvido em Python como projeto da disciplina de Estruturas de Dados.
+Projeto desenvolvido em **Python** durante a disciplina de **Estrutura de Dados**, com o objetivo de aplicar, na prática, conceitos de **listas encadeadas** por meio da simulação de uma fila de atendimento hospitalar.
 
-O programa simula o funcionamento de uma fila de espera hospitalar utilizando **listas encadeadas**, permitindo o cadastro e atendimento de pacientes conforme a prioridade definida pela cor do cartão.
+O sistema organiza pacientes de acordo com a prioridade indicada pela cor do cartão de atendimento.
 
+---
 
+## 📌 Sobre o projeto
 
-Objetivo
+Em um sistema de triagem, pacientes com diferentes níveis de prioridade não devem ser atendidos simplesmente pela ordem de chegada.
 
-O objetivo deste projeto foi aplicar conceitos de Estruturas de Dados por meio da implementação de uma lista encadeada em Python, simulando um sistema simples de triagem hospitalar.
+Este projeto simula esse cenário utilizando uma **lista encadeada**, permitindo cadastrar pacientes e organizar a fila de atendimento conforme sua prioridade.
 
+A estrutura foi desenvolvida manualmente em Python para praticar conceitos fundamentais de **Estruturas de Dados**.
 
+---
 
-Funcionalidades
+## ⚙️ Como funciona
 
-- Cadastro automático de pacientes
-- Geração de cartões de atendimento
-- Cartões Verdes (baixa prioridade)
-- Cartões Amarelos (prioridade)
-- Inserção respeitando a prioridade da fila
-- Impressão da fila de espera
-- Atendimento do próximo paciente
-- Remoção automática após atendimento
+O sistema trabalha com cartões de atendimento identificados por cores:
 
+- 🟢 **Cartão Verde** — menor prioridade
+- 🟡 **Cartão Amarelo** — atendimento prioritário
 
-Tecnologias utilizadas
+Os pacientes são inseridos na fila de acordo com as regras de prioridade definidas pelo sistema.
 
-- Python 3
-- Programação Orientada a Objetos (POO)
-- Listas Encadeadas
+Quando um paciente é chamado, o sistema remove o próximo cartão da fila respeitando essa organização.
+
+---
+
+## ✨ Funcionalidades
+
+- Cadastro de pacientes na fila
+- Geração automática de cartões de atendimento
+- Identificação da prioridade por cor
+- Inserção de pacientes utilizando lista encadeada
+- Organização da fila conforme prioridade
+- Chamada do próximo paciente
+- Visualização da fila de espera
+
+---
+
+## 🧠 Conceitos aplicados
+
+Durante o desenvolvimento foram trabalhados conceitos como:
+
 - Estruturas de Dados
+- Listas encadeadas
+- Nós e ponteiros/referências
+- Inserção e remoção de elementos
+- Percurso de listas
+- Estruturas condicionais
+- Funções
+- Lógica de programação
+- Programação em Python
 
+---
 
+## 🛠️ Tecnologia utilizada
 
-Como executar
+**Python**
 
-1. Clone o repositório
+---
+
+## ▶️ Como executar
+
+Clone este repositório:
+
+```bash
+git clone https://github.com/Joana-Pacheco/sistema-triagem-hospitalar.git
+## ▶️ Como executar
+
+Clone este repositório:
 
 ```bash
 git clone https://github.com/Joana-Pacheco/sistema-triagem-hospitalar.git
 ```
 
-2. Entre na pasta do projeto
+Entre na pasta do projeto:
 
 ```bash
 cd sistema-triagem-hospitalar
 ```
 
-3. Execute o programa
+Execute o programa:
 
 ```bash
-python sistema_triagem_hospitalar.py
+python3 main.py
 ```
 
 ---
 
-Conceitos praticados
+## 🎯 Aprendizado
 
-- Estruturas de Dados
-- Lista Encadeada
-- Classes e Objetos
-- Encapsulamento
-- Manipulação de ponteiros entre nós
-- Organização de código
-- Lógica de Programação
+Este projeto foi importante para compreender de forma prática como uma estrutura de dados pode ser utilizada para representar um problema real.
+
+Mais do que implementar uma lista encadeada, o exercício permitiu relacionar **regras de negócio** com a escolha e utilização de uma estrutura de dados adequada para organizar as informações.
 
 ---
 
-Projeto acadêmico
-
-Este projeto foi desenvolvido para fins educacionais durante a graduação em **Análise e Desenvolvimento de Sistemas**.
-
----
-
-Autora
+## 👩‍💻 Autora
 
 **Joana Pacheco**
 
-- GitHub: https://github.com/Joana-Pacheco
-- LinkedIn: https://www.linkedin.com/in/joanareginapacheco/ 
+Estudante de **Análise e Desenvolvimento de Sistemas** e formada em **Administração de Empresas**
